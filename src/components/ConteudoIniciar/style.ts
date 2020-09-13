@@ -1,0 +1,81 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+    grid-area: CI;
+
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-between;
+
+    //background-color: blue;
+    
+    width: 70%;
+    max-height: 564px;
+    margin: auto;
+
+    > h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //flex-shrink: 0;
+
+        width: 645px;
+        height: 184px;
+
+        font-size: 80px;
+        font-weight: 800;
+        color: var(--text-bold);
+
+    }
+
+    > p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //flex-shrink: 0;
+
+        padding-top: 50px;
+        width: 380px;
+        height: 120px;
+
+        font-size: 18px;
+        font-weight: 300;
+        color: var(--text-sample);
+
+    }
+
+    > button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-top: 50px;
+        margin-bottom: 10px;
+        width: 170px;
+        height: 60px;
+
+        font-size: 18px;
+        font-weight: 200;
+        color: var(--text-white);
+
+        cursor: pointer;
+
+        border-radius: 100px;
+        background-color: var(--background-buttom);
+        box-shadow: 0px 3px 5px -5px var(--text-bold);
+
+        transition: background-color, color, box-shadow, .5s;
+
+        &:hover{
+            background-color: var(--background-buttom-menu);
+            box-shadow: 0px 0px 0px 0px #262626;
+
+            color: var(--text-sample);
+
+        }
+
+    }
+
+`;
+
