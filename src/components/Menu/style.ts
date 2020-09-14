@@ -29,7 +29,7 @@ export const Container = styled.div`
         width: 210px;
         height: 60px;
         
-        font0-size: 16px;
+        font-size: 16px;
         font-weight: bold;
         color: var(--text-bold);
 
@@ -51,7 +51,26 @@ export const Container = styled.div`
 
     }
 
-    @media(max-width: 767px) {
+    @media(min-width: 1024px) {
+        width: 70%;
+        max-height: 60px;
+        margin: auto;
+
+        //background-color: red;
+
+    }
+    
+    @media(min-width: 768px) and (max-width: 1023px){
+        padding: 2%;
+        width: 98%;
+        max-height: 60px;
+        margin: auto;
+        
+        //background-color: red;
+    
+    }
+    
+    @media(min-width: 361px) and (max-width: 767px){
         padding: 2%;
         width: 98%;
         max-height: 60px;
@@ -59,6 +78,26 @@ export const Container = styled.div`
         
         //background-color: red;
 
+        > button{
+            display: none;
+
+        }
+
+    }
+    
+    @media(max-width: 360px){
+        padding: 2%;
+        width: 98%;
+        max-height: auto;
+        margin: auto;
+        
+        //background-color: red;
+
+        > button{
+            display: none;
+
+        }
+    
     }
 
 `;

@@ -30,6 +30,8 @@ export const Li = styled.li<Props>`
     padding: 2%;
     margin: 5%;
 
+    font-size: 16px;
+
     transition: background-color, color, box-shadow, .5s;
 
     justify-content: space-between;
@@ -42,5 +44,23 @@ export const Li = styled.li<Props>`
         color: var(--text-bold);
 
     }*/
+
+    @media(min-width: 1024px) {
+        font-size: 16px;
+    }
+    
+    @media(min-width: 768px) and (max-width: 1023px){
+        font-size: 16px;
+    }
+    
+    @media(min-width: 361px) and (max-width: 767px){
+        font-size: 14px;
+
+    }
+    
+    @media(max-width: 360px){
+        font-size: 14px;
+        
+    }
 
 `;
