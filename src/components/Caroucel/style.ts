@@ -91,5 +91,12 @@ export const Container = styled.div`
         font-weight: 300;
 
     }
+
+    @media(max-width: 767px) {
+        width: 95%;
+        height: 650px;
+        margin: auto;
+
+    }
     
 `;

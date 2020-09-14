@@ -51,6 +51,16 @@ export const Container = styled.div`
 
     }
 
+    @media(max-width: 767px) {
+        padding: 2%;
+        width: 98%;
+        max-height: 60px;
+        margin: auto;
+        
+        //background-color: red;
+
+    }
+
 `;
 
 

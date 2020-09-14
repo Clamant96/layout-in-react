@@ -77,5 +77,15 @@ export const Container = styled.div`
 
     }
 
+    @media(max-width: 767px) {
+        padding: 1%;
+        width: 98%;
+        max-height: 564px;
+        margin: auto;
+
+        //background-color: blue;
+
+    }
+
 `;
 

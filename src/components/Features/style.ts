@@ -39,4 +39,14 @@ export const Container = styled.div`
 
     }
 
+    @media(max-width: 767px) {
+        padding: 2%;
+        width: 96%;
+        max-height: 1026px;
+        margin: auto;
+
+        //background-color: blue;
+        
+    }
+
 `;

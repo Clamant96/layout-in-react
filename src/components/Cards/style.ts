@@ -15,6 +15,16 @@ export const Container = styled.div`
 
     //background-color: blue;
 
+    @media(max-width: 767px) {
+        padding: 2%;
+        width: 96%;
+        max-height: 1026px;
+        margin: auto;
+
+        //background-color: blue;
+
+    }
+
 `;
 
 export const Div1 = styled.div`
@@ -122,6 +132,46 @@ export const Card = styled.div`
 
         margin-top: 2%;
         
+    }
+
+    @media(max-width: 767px) {
+        //background-color: blue;
+
+        > div{
+            padding: 3%;
+            width: 94%;
+            height: auto;
+            margin-left: 5%;
+    
+            border-radius: 40px;
+    
+        }
+
+        > div button{
+            font-size: 16px;
+            color: var(--text-bold);
+            font-weight: 600;
+    
+            width: 90%;
+            height: 26px;
+            margin-left: 0%;
+            margin-top: 5%;
+            
+            border-radius: none;
+    
+            background-color: transparent;
+    
+        }
+
+        > img{
+            position: absolute;
+            width: 12%;
+            height: auto;
+    
+            margin-top: 5%;
+            
+        }
+
     }
 
 `;

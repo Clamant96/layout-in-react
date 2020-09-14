@@ -24,4 +24,15 @@ export const IMG = styled.div`
 
     }
 
+    @media(max-width: 767px) {
+        width: 50%;
+        height: 60%;
+        margin-top: 100px;
+        margin-left: 320px;
+        flex-shrink: 0;
+        
+        //background-color: red;
+
+    }
+
 `;

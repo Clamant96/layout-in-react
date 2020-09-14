@@ -10,7 +10,7 @@ export const Container = styled.div`
 
     padding: 5%;
     width: 90%;
-    margin: auto    ;
+    margin: auto;
     max-height: 761px;
 
     border-top: 1px solid var(--border-hr);
@@ -172,6 +172,14 @@ export const Container = styled.div`
         padding: 2%;
         width: 26%;
         height: auto;
+
+    }
+
+    @media(max-width: 767px) {
+        padding: 2%;
+        width: 96%;
+        margin: auto;
+        max-height: 761px;
 
     }
 
